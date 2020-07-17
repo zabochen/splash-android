@@ -7,4 +7,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- NoActionBar Theme -->
+    <style name="AppNoActionBarTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Transparent StatusBar -->
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_screen_layout</item>
+    </style>
+
 </resources>
